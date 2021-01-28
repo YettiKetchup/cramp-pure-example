@@ -1,5 +1,7 @@
 import EntityStorage from "../libs/cramp/storage/entity.storage";
 import { IComponent, IEntity, IEntityStorage } from "../libs/cramp/type-definitions/interfaces";
+import { v4 as uuidv4 } from 'uuid';
+
 
 export default class GameController {
 
