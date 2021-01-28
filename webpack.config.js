@@ -35,14 +35,11 @@ module.exports = {
       { test: /\.(jpg|png|svg)$/, loader: 'file?name=dist/images/[name].[ext]'} // Images
     ],
     preLoaders: [
-      {
-        test: /\.ts$/,
-        loader: "tslint"
-      }
+      
     ]
   },
   tslint: {
-    emitErrors: true,
-    failOnHint: true
+    emitErrors: false,
+    failOnHint: false
   }
 }
